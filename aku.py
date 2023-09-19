@@ -27,6 +27,25 @@ proxsi=open('socksku.txt','r').read().splitlines()
 for agenku in range(10000):
             a =random.randrange(3,12)
             b = random.choice([
+            'WDY-LX1',
+            'TECNO CH6IS',
+            'Redmi Note 8 Pro',
+            'SM-A236B',
+            'itel S663L',
+            'KOZ-AL00; HMSCore 6.12.0.302; GMSCore 22.45.16',
+            'itel A661W',
+            'Xiaomi 13 Ultra',
+            'motorola edge plus 2023',
+            'SM-A217M',
+            'G501',
+            'moto g14',
+            '23049RAD8C Build/TKQ1.221114.001',
+            'FS454 Build/MRA58K',
+            'NX679J',
+            'ULTRAMINTT X6',
+            'VFD 1100 Build/MRA58K',
+            'Redmi K30i 5G',
+            'A40 Build/MRA58K',
             'Redmi 10 5G',
             'Redmi S2',
             'Redmi Note 9S',
@@ -109,7 +128,7 @@ for agenku in range(10000):
             '12.12.1-gn',
             '12.8.33',
             '12.16.2-gn'])
-            uakuh = f'Mozilla/5.0 (Linux; Android {c} {a}; {b} Build/{d}.0.0{e}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{f}.0.{g}.{h} Mobile Safari/537.36 XiaoMi/MiuiBrowser/{i}'
+            uakuh = f'Mozilla/5.0 (Linux; Android {c} {a}; {b} Build/{d}.0.0{e}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{f}.0.{g}.{h} Mobile Safari/537.36 XiaoMi/Mint Browser/3.9.3/{i}'
             usragent.append(uakuh)
 
 ###----------[ USER AGENT 2 ]----------###
