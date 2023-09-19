@@ -86,7 +86,7 @@ for agenku in range(10000):
             'zh-cn',
             'zh-CN',
             'it-it',
-            'in-id',
+            'it-it',
             'en-us',
             'zh-tw',
             'en-US',
@@ -97,7 +97,19 @@ for agenku in range(10000):
             f = random.randrange(73, 99)
             g = random.randrange(4200, 4900)
             h = random.randrange(40, 150)
-            uakuh = f'Mozilla/5.0 (Linux; Android {c} {a}; {b} Build/{d}.0.0{e}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{f}.0.{g}.{h} Mobile Safari/537.36'
+            i = random.choice([
+            '12.22.0.3-gn',
+            '12.13.2-gn',
+            '12.16.3.1-gn',
+            '12.18.3-gn',
+            '12.10.3-gn',
+            '12.11.4.2-gn',
+            '12.15.2-gn',
+            '12.9.3-gn',
+            '12.12.1-gn',
+            '12.8.33',
+            '12.16.2-gn'])
+            uakuh = f'Mozilla/5.0 (Linux; Android {c} {a}; {b} Build/{d}.0.0{e}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{f}.0.{g}.{h} Mobile Safari/537.36 XiaoMi/MiuiBrowser/{i}'
             usragent.append(uakuh)
 
 ###----------[ USER AGENT 2 ]----------###
