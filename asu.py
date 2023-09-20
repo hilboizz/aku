@@ -326,7 +326,7 @@ def menu(id):
 		file_dump()
 	else:
 		baz_anim(f'{puti}└──{mer} masukkan dengan benar')
-		baz_anim(f'{puti}└──{mer} input publik atau file')
+		baz_anim(f'{puti}└──{mer} input A atau B')
 
 ###----------[ DUMP ID PUBLIK ]----------###
 def nge_krek():
@@ -459,6 +459,7 @@ def passwrdh():
 						pwv.append(nmf)
 					else:
 						pwv.append(nmf)
+						pwv.append(frs+'12')
 						pwv.append(frs+'321')
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
@@ -477,8 +478,10 @@ def passwrdh():
 						pwv.append(frs+'93')
 						pwv.append(frs+'94')
 						pwv.append(frs+'95')
-						pwv.append(frs+'96')
-						pwv.append(frs+'97')
+						pwv.append(frs+'86')
+						pwv.append(frs+'87')
+						pwv.append(frs+'88')
+						pwv.append(frs+'89')
 				if '><v><' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
@@ -551,11 +554,9 @@ def metodh1(idf,pwv):
 ###----------[ ATUR SBLUM KREK ]----------###
 def atur_dulu():
 	print(f'{xxx}{kun}─────────────────────────────')
-	print(f'{xxx}{mer}└── 1. akun baru')
-	print(f'{xxx}{hijo}└── 2. akun acak')
-	print(f'{xxx}{kun}└── 3. akun lama')
+	print(f'{xxx}└──{mer} B=BARU {xxx}{hijo}A=ACAK {xxx}{kun}L=LAMA')	
 	aturid = input(f'{xxx}└── : ')
-	if aturid in ['1','01']:
+	if aturid in ['B','b','1','01']:
 		xbaru=[]
 		for baru in sorted(id):
 			xbaru.append(baru)
@@ -564,11 +565,11 @@ def atur_dulu():
 		for miyabi in range(bkp):
 			id2.append(xbaru[bkpp])
 			bkpp -=1
-	elif aturid in ['2','02']:
+	elif aturid in ['A','a','2','02']:
 		for acak in id:
 			xnxx = random.randint(0,len(id2))
 			id2.insert(xnxx,acak)
-	elif aturid in ['3','03']:
+	elif aturid in ['L','l','3','03']:
 		for akunlama in sorted(id):
 			id2.append(akunlama)
 	else:
@@ -578,11 +579,9 @@ def atur_dulu():
 		exit()
 		
 	print(f'{hijo}─────────────────────────────{xxx}')
-	print(f'{mer}└── 1. mobile{xxx}')
-	print(f'{kun}└── 2. mbasic')
-	print(f'{kun}└── 3. mbeta{xxx}')
-	print(f'{hijo}└── 4. mbasicV²')
-	print(f'{hijo}└── 5. mbetaV²{xxx}')
+	print(f'{mer}└── 1. MOBILE{xxx}')
+	print(f'{ung}└── 2. MBASICV¹  3. MBETAV¹{xxx}')
+	print(f'{hijo}└── 4. MBASICV²  5. MBETAV²{xxx}')
 	metod = input(f'{xxx}└── : ')
 	if metod in ['1','01']:
 		baz.append('metod1')
@@ -657,8 +656,6 @@ def passwrd():
 						pwv.append(frs+'93')
 						pwv.append(frs+'94')
 						pwv.append(frs+'95')
-						pwv.append(frs+'96')
-						pwv.append(frs+'85')
 						pwv.append(frs+'86')
 						pwv.append(frs+'87')
 						pwv.append(frs+'88')
