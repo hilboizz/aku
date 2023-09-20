@@ -358,7 +358,7 @@ def nge_krek():
 def file_dump():
 	mz = 0
 	bzz = {}
-	print(f'{xxx}─────────────────────────────')
+	print(f'{xxx}{kun}─────────────────────────────')
 	try:baz_gtg = os.listdir('/sdcard/DUMP-FILE/')
 	except FileNotFoundError:
 		print('└── file dump tidak ada ster ')
@@ -400,7 +400,7 @@ def file_dump():
 		atur_duluh()
 		
 def atur_duluh():
-	print(f'{xxx}─────────────────────────────')
+	print(f'{xxx}{hijo}─────────────────────────────')
 	print('└── 1. akun baru')
 	print('└── 2. akun acak')
 	aturidh = input(f'{xxx}└── : ')
@@ -448,6 +448,7 @@ def passwrdh():
 					if len(frs)<3:
 						pass
 					else:
+						pwv.append(frs+'12')
 						pwv.append(frs+'321')
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
