@@ -134,18 +134,19 @@ for agenku in range(10000):
             '12.16.2-gn'])
             j = random.choice([
             'Mozilla/5.0 (Linux; Android',
+            'Mozilla/5.0 (Linux; arm; Android',
+            'Mozilla/5.0 (Linux; arm_64; Android',
+            'Mozilla/5.0 (X11; Linux android',
             'Mozilla/5.0 (Linux; U; Android'])
             k = random.choice([
             'RealmeBrowser/35.5.0.8',
             'XiaoMi/Mint Browser/3.9.3',
-            'VivoBrowser/15.9.0.4',
             'HuaweiBrowser/12.1.1.3',
             'OPR/29.0.2254.120398',
             'Firefox/110.0',
             'XiaoMi/MiuiBrowser/13.35.0-gn',
-            '[FBAN/EMA;FBLC/es_LA;FBAV/373.1.0.8.104;]',
-            '[FBAN/EMA;FBLC/ru_RU;FBAV/373.1.0.8.104;]',
-            '[FB_IAB/FB4A;FBAV/433.0.0.31.111;]'])
+            'EdgA/105.0.1343.34',
+            'Edg/118.0.2088.11'])          
             uakuh = f'{j} {c} {a}; {b} Build/{d}.0.0{e}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{f}.0.{g}.{h} Mobile Safari/537.36 {k}'
             usragent.append(uakuh)
 
